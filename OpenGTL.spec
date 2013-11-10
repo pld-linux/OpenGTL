@@ -25,6 +25,7 @@ BuildRequires:	libpng-devel
 BuildRequires:	llvm-devel >= 3.3
 BuildRequires:	texlive-dvips
 BuildRequires:	texlive-latex
+BuildRequires:	texlive-makeindex
 BuildRequires:	zlib-devel
 Requires:	%{name}-libs = %{version}-%{release}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
