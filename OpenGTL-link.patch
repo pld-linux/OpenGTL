@@ -1,0 +1,11 @@
+--- OpenGTL-0.9.18/OpenGTL/GTLCore/CMakeLists.txt.orig	2012-12-29 12:27:12.000000000 +0100
++++ OpenGTL-0.9.18/OpenGTL/GTLCore/CMakeLists.txt	2013-11-10 20:35:10.129428841 +0100
+@@ -110,7 +110,7 @@
+ set(EXTRA_GTLCORE_LINK_OPTIONS -Wl,-u,__ZTVN4llvm3JITE )
+ endif()
+ 
+-target_link_libraries(GTLCore ${LLVM_LDFLAGS} ${LLVM_LIBS} ${EXTRA_GTLCORE_LINK_OPTIONS})
++target_link_libraries(GTLCore ${LLVM_LDFLAGS} ${LLVM_LIBS} ${EXTRA_GTLCORE_LINK_OPTIONS} -lpthread)
+ 
+ # Set the ABI version of the library
+ set_target_properties(GTLCore PROPERTIES VERSION ${OPENGTL_LIB_VERSION} SOVERSION ${OPENGTL_LIB_SOVERSION} )
