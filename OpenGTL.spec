@@ -6,7 +6,7 @@ Summary:	Graphics Transformation Languages
 Summary(pl.UTF-8):	Graphics Transformation Languages - języki przekształceń graficznych
 Name:		OpenGTL
 Version:	0.9.18
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://download.opengtl.org/%{name}-%{version}.tar.bz2
